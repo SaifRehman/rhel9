@@ -1,0 +1,7 @@
+---
+- name: "sample playbook ping"
+  hosts: rhel9.x7gwb.sandbox405.opentlc.com
+  tasks:
+    - name: "echo"
+      ansible.builtin.shell:
+        cmd: "echo 'hello'"
