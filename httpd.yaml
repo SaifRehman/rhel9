@@ -1,6 +1,7 @@
 ---
 - name: "sample playbook ping"
   hosts: rhel9.x7gwb.sandbox405.opentlc.com
+  become: true
   vars:
     project_root: /var/www/html
   tasks:
