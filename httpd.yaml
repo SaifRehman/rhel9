@@ -1,6 +1,6 @@
 ---
-- name: "sample playbook ping"
-  hosts: rhel9.x7gwb.sandbox405.opentlc.com
+- name: "sample playbook for httpd server"
+  hosts: node1
   become: true
   vars:
     project_root: /var/www/html
