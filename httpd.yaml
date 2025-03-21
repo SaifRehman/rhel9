@@ -1,6 +1,6 @@
 ---
 - name: "sample playbook for httpd server"
-  hosts: node1
+  hosts: ansible-1.6hb8b.sandbox1131.opentlc.com
   become: true
   vars:
     project_root: /var/www/html
